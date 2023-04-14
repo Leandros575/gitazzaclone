@@ -79,16 +79,46 @@ hr {
 
 
 .nav  { 
-    display: flex;
+}
+
+.nav .container .colimg img { 
+    width: 50%;
 }
 
 .nav .container { 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 
-.nav .colista {
+.nav .co lista {
     display: flex;
     justify-content: space-between;
+}
+
+
+.nav .collista { 
+
+}
+
+.nav .collista .sub-menu { 
+    display: flex; 
+}
+
+
+.nav .collista .sub-menu li { 
+    list-style: none;
+}
+
+
+.nav .collista .sub-menu li a { 
+    text-decoration: none;
+}
+
+
+.sub-menu .sub-menu :hover { 
+    display: none;
 }
