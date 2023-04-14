@@ -1,0 +1,94 @@
+body { 
+    margin: 0;
+    padding: 0px 185px 0px 185px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header .sociais { 
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+
+header .sociais .container  { 
+    align-items: center;
+}
+
+
+header .sociais .container .colsociais { 
+    padding: 10px;
+    letter-spacing: 10px;
+}
+
+
+header .sociais .container .colsociais {
+    cursor: pointer;
+    color: #818a81;
+
+}
+
+.colsociais i:hover { 
+    color: #337ab7;
+}
+
+
+
+/*servicos */
+
+header .servicos { 
+    width: ;
+}
+
+
+header .servicos .container { 
+    margin: 0 auto;
+}
+
+header .servicos .container .colservicos { 
+    margin: 0 auto;
+}
+
+
+header .servicos .container .colservicos ul { 
+    display: flex;
+    list-style: none; 
+    justify-content: center;  
+}
+
+
+header .servicos .container .colservicos ul li { 
+    text-decoration: none;
+}
+
+
+header .servicos .container .colservicos ul li a { 
+    text-decoration: none;
+    padding: 0 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: #27348B;
+    font-weight: 650;
+}
+
+hr { 
+    color: #6d6d6d;
+    font-weight: 400;
+}
+
+
+.nav  { 
+    display: flex;
+}
+
+.nav .container { 
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.nav .colista {
+    display: flex;
+    justify-content: space-between;
+}
