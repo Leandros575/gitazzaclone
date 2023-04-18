@@ -91,6 +91,7 @@ hr {
     text-align: center;
     align-items: center;
     margin: 0 auto;
+    padding: 25px 0px 0px 0px;
 }
 
 
@@ -109,7 +110,6 @@ hr {
     background-color: #ffff;
     color: #27348B;
     list-style: none;
-    display: flex;
     padding: 0 10px;
     width: 200px;
     height: 40px;
@@ -124,6 +124,7 @@ hr {
 .nav .container .collista .menu ul { 
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 
@@ -132,9 +133,18 @@ hr {
     text-decoration: none;
     letter-spacing: 1.5px;
     display: flex;  
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0px 0px 85px 0px;
 }
 
 
 .nav .container .collista .menu  ul li a .i { 
     padding: 0 5px;
+}
+
+
+.menu ul li a:hover { 
+    color: red;
+    border-bottom: 1px red solid;
 }
